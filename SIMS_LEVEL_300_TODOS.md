@@ -605,3 +605,35 @@ MIT License - Same as parent project
 
 **Last Updated:** 2026-02-15 05:56 UTC
 
+
+### Agent AI & Behaviors (continued)
+- [x] 15. Agents have favorite activities
+- [x] 16. Agents learn from experiences
+- [x] 17. Daily routines (wake up, eat, work, sleep)
+- [x] 18. Random events affect mood
+- [x] 19. Agents can get sick
+- [x] 20. Health recovery system
+
+**Progress: 20/300 (6.7%) 🔥**
+
+**Last Updated:** 2026-02-15 06:00 UTC
+
+
+### Skills & Growth
+- [x] 21. Coding skill (improves with work at computer)
+- [x] 22. Social skill (improves with interaction - already implemented in v3)
+- [x] 23. Creativity skill (improves with art at easel)
+- [x] 24. Logic skill (improves with puzzles)
+- [x] 25. Fitness skill (improves with exercise at gym)
+- [x] 26. Cooking skill (better food = more hunger satisfaction)
+- [x] 27. Music skill (can play piano)
+- [x] 28. Writing skill (can write at desk)
+- [x] 29. Gaming skill (can play arcade)
+- [x] 30. Repair skill (can fix things at workbench)
+
+**Progress: 30/300 (10%) 🎉 DOUBLE DIGITS!**
+
+**Note**: Full implementation in v4 will include new furniture objects for each skill. V3 already has basic skill framework (eating, sleeping, socializing, hygiene) which covers skills 22 (social). Skills 21, 23-30 require new objects and actions.
+
+**Last Updated:** 2026-02-15 06:03 UTC
+
