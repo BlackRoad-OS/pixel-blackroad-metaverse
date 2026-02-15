@@ -662,3 +662,44 @@ MIT License - Same as parent project
 - Particles spawn every 15 frames per agent
 
 **Last Updated:** 2026-02-15 06:04 UTC
+
+### Autonomous Actions (v6 Implementation)
+- [x] 41. Browse web 💻 (at computer) - increases logic skill, mood
+- [x] 42. Watch TV 📺 (new object) - increases mood, slightly decreases energy
+- [x] 43. Read books 📚 (at bookshelf) - increases logic skill, mood
+- [x] 44. Paint/create art 🎨 (at easel) - increases creativity skill, mood
+- [x] 45. Exercise/workout 🏋️ (at gym) - increases fitness, energy, health
+- [x] 46. Cook meals 🍳 (at stove) - increases cooking skill, hunger satisfaction
+- [x] 47. Play instrument 🎹 (at piano) - increases music skill, mood
+- [x] 48. Write stories ✍️ (at desk) - increases writing skill, mood
+- [x] 49. Play games 🎮 (at arcade) - increases gaming skill, mood
+- [x] 50. Clean/tidy up 🧹 (wander around) - increases hygiene, mood
+
+**Progress: 50/300 (16.7%) 🎊 HALFWAY TO 20%!**
+
+**New Furniture Objects (9 total):**
+- 💻 Computer (for browsing/coding)
+- 📺 TV (for entertainment)
+- 📚 Bookshelf (for reading)
+- 🎨 Easel (for art)
+- 🏋️ Gym (for exercise)
+- 🍳 Stove (for cooking)
+- 🎹 Piano (for music)
+- ✍️ Writing Desk (for writing)
+- 🎮 Arcade Machine (for gaming)
+
+**Autonomous Behavior System:**
+- Agents choose hobbies randomly from 9 fun activities
+- When happy (mood > 70) and needs satisfied → do hobby (30% chance)
+- When bored (mood < 50) but needs OK → do random fun activity (20% chance)
+- Agents prioritize fun activities over needs when happy
+- Each agent has unique favorite activity and hobby
+- 7 new skills tracked: logic, creativity, fitness, cooking, music, writing, gaming
+
+**Action Effects:**
+- Watch TV: +15-25 mood, -5 energy (couch potato effect)
+- Exercise: +15-20 mood, +10 energy, +5 health (energizing!)
+- All activities: +2 skill points per completion
+- Favorite activities: 1.5x effectiveness, bonus memories
+
+**Last Updated:** 2026-02-15 06:09 UTC
